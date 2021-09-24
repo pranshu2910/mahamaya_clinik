@@ -72,7 +72,8 @@
                 </li>
 
                 <li><a href="#contact">Contact</a></li>
-                <!--<li><a href="#contact">Blog</a></li>-->
+                <li><a data-toggle="modal" data-toggle="tooltip"
+                    href="#exampleModalCenter">Select Language</a></li>    
 
             </ul>
         </nav><!-- .nav-menu -->
@@ -152,7 +153,9 @@
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
                         <div class="icon"><i class="icofont-heart-beat"></i></div>
                         <h4 class="title"><a href="">ORTHOPEDICS & NEUROLOGY</a></h4>
-                        <p class="description">We have better and effective treatment plans for all types of joints pain & problems like Osteoarthritis (OA) of the Hip /knee /shoulder , Rheumatoid arthritis (RA) ,gouty arthritis , Septic arthritis, psoriatic arthritis etc. We also have effective treatment options for ankylosing spondylitis of spine  & prolapse of intervertebral disc (PIVD)with or without nerve compression.Treatment of all types of paralysis(like monoplegia, paraplegia,hemiplegia etc.) due to cerebrovascular accident (CVA) is also available.</p>
+                        <p class="description">We have better and effective treatment plans for all types of joints pain & problems like Osteoarthritis (OA) of the Hip /knee /shoulder , Rheumatoid arthritis (RA) ,gouty arthritis , Septic arthritis, psoriatic arthritis etc. We also have effective treatment options for ankylosing spondylitis of spine.</p>
+                        <br>
+                        <a href="joint_disorder.html" class="align-center btn-get-started scrollto">Read More</a>  
                     </div>
                 </div>
 
@@ -163,6 +166,8 @@
                         <p class="description">Here we are managing all types of injuries like Fractures (all types of closed fracture of
                             extremities & some compound/open fracture of small bones), Dislocation, subluxation (a partial
                             dislocation), Sprain, Strain, all types of wounds like Incised & lacerated Wound etc.</p>
+                            <br>
+                            <a href="trauma_and_emergency_management.html" class="align-center btn-get-started scrollto">Read More</a>     
                     </div>
                 </div>
 
@@ -173,6 +178,8 @@
                         <p class="description">We are providing general consultation for all types of orthopedic & neurological diseases. We are
                             consulting online as well for all types of diseases except orthopedics and neurological
                             disorders.</p>
+                            <br>
+                            <a href="general_consultant.html" class="align-center btn-get-started scrollto">Read More</a>     
                     </div>
                 </div>
 
@@ -494,13 +501,12 @@
                 <div class="testimonial-item">
                     <p>
                         <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                        Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
-                        Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                        मैं मिथिलेश कुमार यादव उम्र २१ वर्ष का हूं l मुझे अचानक वायरल बुखार होने से तबियत खराब हो गया और मैं महामाया क्लिनिक  में इलाज करवाया और मुझे तत्काल आराम मिला और मैं अब पूर्णतः स्वस्थ हूं और अब काम में वापस जाने लगा हूं। इसलिए मैं महामाया क्लिनिक के डॉक्टर्  का धन्यवाद करता हूं l ।
                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
-                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                    <h3>Saul Goodman</h3>
-                    <h4>Ceo &amp; Founder</h4>
+                    <img src="assets/img/testimonials/testimonials-1.png" class="testimonial-img" alt="">
+                    <h3>मिथिलेश कुमार यादव</h3>
+                    <h4>भाटागांव रायपुर (छत्तीसगढ़)</h4>
                 </div>
 
                 <div class="testimonial-item">
@@ -724,6 +730,26 @@
     </div>
 </footer><!-- End Footer -->
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+    <div class="modal-header">
+        <!-- <h5 class="modal-title" id="exampleModalCenterTitle">Change Language</h5> -->
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body text-center">
+        <div class="googletranslate" id="google_translate_element">
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<!--End Modal -->
+
 <div id="preloader"></div>
 <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
@@ -740,6 +766,16 @@
 
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
+
+<!-- Google Translate -->
+<script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+</script>
 
 </body>
 
