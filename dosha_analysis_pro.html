@@ -71,7 +71,8 @@
                     </ul>
                 </li>
                 <li><a href="index.html#contact">Contact</a></li>
-                <li><a data-toggle="modal" data-toggle="tooltip" href="#exampleModalCenter">Select Language</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <!--<li><a data-toggle="modal" data-toggle="tooltip" href="#exampleModalCenter">Select Language</a></li>-->
 
             </ul>
         </nav>
@@ -143,16 +144,16 @@
                     Frame(Physique)?</font></strong><br/>
                     <label>
                         <input form="doshaquiz" id="vata1" name="question1" onclick="getTotal()"
-                                  type="radio" value="1"/> Thin, bony or small Framed ;Hardly gain
+                               type="radio" value="1"/> Thin, bony or small Framed ;Hardly gain
                         weight
                     </label><br/>
                     <label>
                         <input form="doshaquiz" id="pitta1" name="question1" onclick="getTotal()"
-                                  type="radio" value="1"/> Medium Framed ;Gain weight easily
+                               type="radio" value="1"/> Medium Framed ;Gain weight easily
                     </label><br/>
                     <label>
                         <input form="doshaquiz" id="kapha1" name="question1" onclick="getTotal()"
-                                  type="radio" value="1"/> Large ,well proportioned; gain easily but
+                               type="radio" value="1"/> Large ,well proportioned; gain easily but
                         difficult to loose
                     </label>
                 </div>
@@ -378,20 +379,20 @@
                 &nbsp;
             </div>
 
-            <div class="row">
-                <div class="col-xs-12 col-md-6 b20"><strong><font size="+2">18. Reaction when someone
-                    hurt?</font></strong><br/>
-                    <label><input form="doshaquiz" id="vata18" name="question18" onclick="getTotal()" type="radio"
-                                  value="1"/> Cries
-                    </label><br/>
-                    <label><input form="doshaquiz" id="pitta18" name="question18" onclick="getTotal()" type="radio"
-                                  value="1"/>
-                        Fights </label><br/>
-                    <label><input form="doshaquiz" id="kapha18" name="question18" onclick="getTotal()" type="radio"
-                                  value="1"/>
-                        Withdraws </label></div>
-                &nbsp;
-            </div>
+            <!--<div class="row">-->
+            <!--<div class="col-xs-12 col-md-6 b20"><strong><font size="+2">18. Reaction when someone-->
+            <!--hurt?</font></strong><br/>-->
+            <!--<label><input form="doshaquiz" id="vata18" name="question18" onclick="getTotal()" type="radio"-->
+            <!--value="1"/> Cries-->
+            <!--</label><br/>-->
+            <!--<label><input form="doshaquiz" id="pitta18" name="question18" onclick="getTotal()" type="radio"-->
+            <!--value="1"/>-->
+            <!--Fights </label><br/>-->
+            <!--<label><input form="doshaquiz" id="kapha18" name="question18" onclick="getTotal()" type="radio"-->
+            <!--value="1"/>-->
+            <!--Withdraws </label></div>-->
+            <!--&nbsp;-->
+            <!--</div>-->
 
         </div>
     </div>
@@ -421,7 +422,7 @@
         var kaphaSum = 0;
         var pittaSum = 0;
         var vataSum = 0;
-        for (var i = 1; i <= 18; i++) {
+        for (var i = 1; i <= 17; i++) {
             var kaphaItem = document.getElementById('kapha' + i);
             if (kaphaItem.checked) {
                 if (isNaN(+kaphaItem.value)) {
@@ -432,7 +433,7 @@
                 }
             }
         }
-        for (var i = 1; i <= 18; i++) {
+        for (var i = 1; i <= 17; i++) {
             var pittaItem = document.getElementById('pitta' + i);
             if (pittaItem.checked) {
                 if (isNaN(+pittaItem.value)) {
@@ -443,7 +444,7 @@
                 }
             }
         }
-        for (var i = 1; i <= 18; i++) {
+        for (var i = 1; i <= 17; i++) {
             var vataItem = document.getElementById('vata' + i);
             if (vataItem.checked) {
                 if (isNaN(+vataItem.value)) {
